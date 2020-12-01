@@ -1,0 +1,6 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+}
