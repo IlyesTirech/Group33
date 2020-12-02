@@ -1,19 +1,25 @@
-import { faDove } from '@fortawesome/free-solid-svg-icons'
-import React, {Component} from 'react'
-import "./styles/App.css"
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick"
-import Carousel from 'react-bootstrap/Carousel'
-import Cards from './components/Cards'
 
+import React from 'react'
+import "./styles/App.css"
+import Nav from './components/Nav'
+import UnderNav from './components/UnderNav'
+import Footer from './components/Footer';
+import UnderFooter from './components/UnderFooter'
+import Images from './components/Images'
+import Slider from './components/Slider'
 
 
 function App(){
  
   return (
-    <div className="App">
-      
+    <div >
+     <Nav />
+    <UnderNav/>
+    <Slider/>
+
+   <Footer/>
+   <Images/>
+  <UnderFooter/>
      
     </div>
     

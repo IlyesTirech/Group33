@@ -2,22 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Nav from './components/Nav'
-import UnderNav from './components/UnderNav'
-import SliderCom from './components/SliderCom'
-import Footer from './components/Footer';
-import UnderFooter from './components/UnderFooter'
-import Slider from 'react-slick';
+
+
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Nav />
-    <UnderNav/>
-   
-   <Footer/>
-  <UnderFooter/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

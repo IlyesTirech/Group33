@@ -1,0 +1,22 @@
+.image {
+  padding-top: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image img {
+  width: 30px;
+}
+.paycard {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}

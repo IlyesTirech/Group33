@@ -6,22 +6,26 @@ const Footer = () => {
         <div className="footer">
 
         <div className="help_info">
-         <h2>Help and Information</h2>   
+         <h3>Help and Information</h3>   
          <ul>
-             <li><a href=""></a>Delivery and Returns</li>
-             <li><a href=""></a>Terms and Conditions</li>
-             <li><a href=""></a>Helplines</li>
+             <li><a href="#">Delivery and Returns</a></li>
+             <li><a href="#">Terms and Conditions</a></li>
+             <li><a href="#">Helplines</a></li>
          </ul>
         </div>
         <div className="about">
-            <h2>About Garms</h2>
+            <h3>About Garms</h3>
             <ul>
-                <li><a href=""></a>About Us</li>
-                <li><a href=""></a>Donate Now</li>
-                <li><a href=""></a>Customer Services</li>
+                <li><a href="1">About Us</a></li>
+                <li><a href="#">Donate Now</a></li>
+                <li><a href="#">Customer Services</a></li>
             </ul>
+           
         </div>
+
+        
         </div>
+        
     )
 }
 

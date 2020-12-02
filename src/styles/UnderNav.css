@@ -1,12 +1,17 @@
 .undernav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  align-items: center;
+  padding-top: 4px;
   border: 1px solid black;
   border-right: 0px;
   border-left: 0px;
-  font-size: 12px;
   font-family: "Montserrat", sans-serif;
+}
+
+.undernav h3 {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 15px;
+  font-weight: 700;
 }
