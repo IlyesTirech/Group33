@@ -3,6 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faUser} from "@fortawesome/free-solid-svg-icons"
 import {faShoppingBag} from "@fortawesome/free-solid-svg-icons"
 import {faSearch} from "@fortawesome/free-solid-svg-icons"
+
 const Nav = () => {
     return(
 

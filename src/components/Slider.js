@@ -9,7 +9,7 @@ const Slider = () => {
   <Carousel.Item interval={5000}>
     <img
       className="d-block w-100"
-      src="https://images.pexels.com/photos/5340269/pexels-photo-5340269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      src="https://www.wfeo.org/wp-content/uploads/HLPF-SDGs.jpg"
       alt="First slide"
     />
     <Carousel.Caption>

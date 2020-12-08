@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import UnderFooter from './components/UnderFooter'
 import Images from './components/Images'
 import Slider from './components/Slider'
-
+import Cards from './components/Cards'
 
 function App(){
  
@@ -16,7 +16,7 @@ function App(){
      <Nav />
     <UnderNav/>
     <Slider/>
-
+<Cards/>
    <Footer/>
    <Images/>
   <UnderFooter/>
