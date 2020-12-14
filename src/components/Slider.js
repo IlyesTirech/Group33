@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-
+import {Link} from 'react-router-dom'
 const Slider = () => {
     return(
 
@@ -13,7 +13,9 @@ const Slider = () => {
       alt="First slide"
     />
     <Carousel.Caption>
+      <Link to='/learn-about-un-goals'>
       <button className="un">LEARN ABOUT THE <br/>SUSTAINABLE DEVELOPMENT GOALS </button>
+      </Link>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={5000}>
@@ -23,7 +25,9 @@ const Slider = () => {
       alt="Second slide"
     />
     <Carousel.Caption>
+      <Link to='/womens'>
       <button className="shop">SHOP WOMENS</button>
+      </Link>
     </Carousel.Caption>
   </Carousel.Item>
   

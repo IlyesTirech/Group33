@@ -1,0 +1,15 @@
+.products {
+  width: 100%;
+}
+
+.products ul {
+  background-color: lightcoral;
+
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.products img {
+  width: 50%;
+}

@@ -1,7 +1,5 @@
-
-
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 const Images = () => {
     return(
 
@@ -14,9 +12,15 @@ const Images = () => {
                     </div>
                 
            <div className="social">
+               <Link to=''>
                     <img src="/img/fb.svg" alt=""/>
+                    </Link>
+                    <Link to=''>
                     <img src="/img/ig.svg" alt=""/>
+                    </Link>
+                    <Link to=''>
                     <img src="/img/tw.svg" alt=""/>
+                    </Link>
                     </div>
                 
                 
