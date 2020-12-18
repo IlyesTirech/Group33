@@ -1,0 +1,55 @@
+.footer {
+  padding-top: 5px;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.footer li {
+  font-size: 15px;
+  padding-top: 4px;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.banner h3 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.image {
+  padding-top: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image img {
+  width: 30px;
+}
+.paycard {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
